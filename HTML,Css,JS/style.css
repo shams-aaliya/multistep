@@ -5,9 +5,7 @@
 }
 
 body {
-  background-image: linear-gradient(to right, blue, black);
-  background-position: center;
-  background-size: cover;
+  background: black;
   font-size: 20px;
 }
 
@@ -15,7 +13,7 @@ body {
   width: 90%;
   height: 400px;
   margin: 18% auto;
-  background: #fff;
+  background: #0D0D14;
   border-radius: 5px;
   position: relative;
   justify-content: center;
@@ -30,23 +28,23 @@ body {
   font-size: 0.8em;
 }
 .container form label {
-  margin-bottom: 3px;
-  color: #777777;
+  color: #767896;
+  font-size: 0.8em;
 }
 .container form input {
   width: 100%;
-  margin: 10px 0;
-  border: 0;
-  border-bottom: 1px solid #d6d6d6;
+  height: 28px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  border: 1px solid #584E61;
   outline: none;
   background: transparent;
-  font-size: 18px;
 }
 .container h3 {
   text-align: center;
   margin-bottom: 2em;
-  font-size: 1.3em;
-  color: #777777;
+  font-size: 1.4em;
+  color: #767896;
 }
 .container .button-box {
   width: 100%;
@@ -58,15 +56,15 @@ body {
   width: 110px;
   height: 35px;
   margin: 0 0.5em;
-  background: linear-gradient(to right, #234c5a, white);
-  border-radius: 30px;
-  outline: none;
+  background: #BC3756;
+  border-radius: 3px;
+  border: none;
   color: #fff;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition: 0.5s;
 }
 .container .button-box button:hover {
   background: none;
-  color: #234c5a;
-  border: 1px solid #234c5a;
+  color: #fff;
+  border: 1px solid #fff;
 }/*# sourceMappingURL=style.css.map */

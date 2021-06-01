@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <div class="container">
-        <form id="form1" action="">
+<form id="form1" action="">
             <h3>CREATE ACCOUNT</h3>
             <label for="email">E-Mail</label> <input id="email" name="email" type="email">
             <label for="password">Password</label> <input id="password" name="password" type="password">
@@ -30,20 +19,3 @@
                 <button type="next">Next</button>
             </div>         
         </form>
-        <form id="form3" action="">
-            <h3>PERSONAL INFO</h3>
-            <label for="firstname">First Name</label> <input id="firstname" name="firstname" type="text">
-            <label for="lastname">Last Name</label> <input id="lastname" name="lastname" type="text">
-            <label for="MobileNumber">Mobile Number</label> <input id="MobileNumber" name="MobileNumber" type="tel" pattern="[0-9]{10}">
-
-            <div class="button-box">
-                <button type="button">Back</button>
-                <button type="submit">Submit</button>
-            </div>         
-        </form>
-    </div>
-    
-
-        
-</body>
-</html>
