@@ -11,12 +11,12 @@
     <div class="container">
         <form id="form1" action="">
             <h3>CREATE ACCOUNT</h3>
-            <label for="email">E-Mail</label> <input id="email" name="email" type="email">
+            <label for="email">E-Mail</label> <input id="email" name="email" type="email" autofocus>
             <label for="password">Password</label> <input id="password" name="password" type="password">
             <label for="confirmpassword">Confirm Password</label> <input id="confirmpassword" name="confirmpassword" type="text">
 
             <div class="button-box">
-                <button type="button">Next</button>
+                <button type="button" id="Next1">Next</button>
             </div>         
         </form>
         <form id="form2" action="">
@@ -26,8 +26,8 @@
             <label for="linkedin">Linked In</label> <input id="linkedin" name="linkedin" type="url">
 
             <div class="button-box">
-                <button type="button">Back</button>
-                <button type="next">Next</button>
+                <button type="button" id="Back1">Back</button>
+                <button type="button" id="Next2">Next</button>
             </div>         
         </form>
         <form id="form3" action="">
@@ -37,13 +37,19 @@
             <label for="MobileNumber">Mobile Number</label> <input id="MobileNumber" name="MobileNumber" type="tel" pattern="[0-9]{10}">
 
             <div class="button-box">
-                <button type="button">Back</button>
+                <button type="button" id="Back2">Back</button>
                 <button type="submit">Submit</button>
             </div>         
         </form>
+        <div class="step-container">
+            <div id="progress"></div>
+            <div class="stepitem"><small>Step 1</small></div>
+            <div class="stepitem"><small>Step 2</small></div>
+            <div class="stepitem"><small>Step 3</small></div>
+        </div>
     </div>
     
 
-        
+,<script src="./script.js"></script>        
 </body>
 </html>
